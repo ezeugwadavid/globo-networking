@@ -18,7 +18,7 @@ variable "environment" {
   type        = string
   description = "(Optional) Environment of all resources"
   default     = "development"
-  
+
 }
 
 variable "cidr_block" {
